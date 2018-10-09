@@ -2,10 +2,10 @@
   
   class cell_phone
   {
-   //public:
-          String os,camera,sim;
+   
+         public String os,camera,sim;
           
-          int ram,battery;
+         public int ram,battery;
       
      
       void common_features()
@@ -16,8 +16,8 @@
  
   class Iphone extends cell_phone
   {
-   // public:
-   String security,lighting;
+   
+   public String security,lighting;
   
   
  //  void getdata()
@@ -50,8 +50,8 @@
  
   class samsung extends cell_phone
   {
-   // public:
-   String selfie,scan;
+   
+   public String selfie,scan;
 
   // void getdata()
     samsung()
@@ -82,8 +82,8 @@
 
   class vivo extends cell_phone
  {
-  // public:
-    String processor,fingerprint;
+  
+   public String processor,fingerprint;
   
  //void getdata()
     vivo()
@@ -127,7 +127,7 @@
 
      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     
-     System.out.println(" 1. Iphone \n 2. Samsung \n 3. Vivo");
+     System.out.println(" 1. Iphone \n 2. Samsung \n 3. Vivo ");
      System.out.print(" Plz choose the brand do you want to select=" );
      n=Integer.parseInt(br.readLine());
      switch(n)
